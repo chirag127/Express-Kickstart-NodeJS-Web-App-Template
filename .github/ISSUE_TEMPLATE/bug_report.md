@@ -1,47 +1,69 @@
 ---
-name: Bug Report
-about: Report a reproducible bug in the Express-Kickstart-NodeJS-Web-App-Template project.
+name: "🐞 Bug Report"
+about: Report a defect or an unexpected behavior within the RapidStart Express.js Web App Template.
+title: "Bug: [Briefly describe the bug]"
 labels: ["bug", "triage"]
+assignees: []
 ---
 
-## Bug Report
+## 🐞 Bug Report
 
-### Describe the bug
-A clear and concise description of what the bug is. Include steps to reproduce if possible.
+Thank you for taking the time to report a bug! To help us diagnose and resolve the issue quickly, please provide as much detail as possible by filling out the sections below.
 
-### To Reproduce
-Steps to reproduce the behavior:
-1.  Go to ...
-2.  Click on ...
-3.  Scroll down to ...
-4.  See error
+### 🌍 Environment
 
-### Expected behavior
-A clear and concise description of what you expected to happen.
+Please provide details about your development and deployment environment:
 
-### Screenshots
-If applicable, add screenshots to help explain your problem.
+-   **Node.js Version:** `[e.g., v18.x.x or v20.x.x]`
+-   **npm / yarn Version:** `[e.g., 8.x.x or 1.x.x]`
+-   **Operating System:** `[e.g., macOS Ventura, Windows 11, Ubuntu 22.04]`
+-   **Docker Version (if applicable):** `[e.g., Docker Desktop 4.x.x]`
+-   **Browser (if UI-related):** `[e.g., Chrome 120, Firefox 121, Safari 17]`
+-   **Specific Commit/Version of `RapidStart-Express-NodeJS-WebApp-Template`:** `[e.g., v1.0.0 or git commit hash]`
 
-### Environment
-*   **Node.js Version:** (e.g., v20.x.x)
-*   **Express Version:** (e.g., v4.18.2)
-*   **Operating System:** (e.g., macOS, Windows, Linux)
-*   **Browser (if applicable):** (e.g., Chrome, Firefox, Safari)
-*   **Package Manager:** (npm, yarn, pnpm)
+### 📝 Description
 
-### Additional context
-Add any other context about the problem here (e.g., error messages, logs, etc.).
+A clear and concise description of what the bug is.
 
-### Code Snippets
-If applicable, include code snippets to help illustrate the bug.
+`[Your detailed description here]`
 
-javascript
-// Example Code
+### 🔁 Steps to Reproduce
+
+Provide the exact steps to reproduce the behavior. This is crucial for us to confirm and fix the bug.
+
+1.  `[Step 1]`
+2.  `[Step 2]`
+3.  `[Step 3]`
+
+### ✔️ Expected Behavior
+
+What did you expect to happen when following the steps above?
+
+`[Your expected outcome here]`
+
+### ❌ Actual Behavior
+
+What actually happened, contradicting your expectation?
+
+`[Your actual outcome here]`
+
+### 📸 Screenshots / Recordings (Optional)
+
+If applicable, add screenshots or a short video/GIF to help explain your problem. This can be extremely helpful for UI-related bugs.
+
+`[Drag and drop images or link to recordings here]`
+
+### ℹ️ Additional Context
+
+Add any other context about the problem here. This could include error messages from the console/terminal, specific configuration changes, or any unusual setup.
 
 
-### Possible Solutions
-If you have ideas on how to fix the bug, please share them.
+[Paste any relevant error logs or code snippets here]
 
----
 
-*This template adheres to the highest industry standards for issue reporting, ensuring rapid triage and resolution.*
+### ✅ Acceptance Criteria
+
+What specific conditions must be met for this bug to be considered resolved?
+
+-   `[Criterion 1]`
+-   `[Criterion 2]`
